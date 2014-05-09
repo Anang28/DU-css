@@ -1,0 +1,130 @@
+@font-face{
+	font-family: coccinelle;
+	src:url(Coccinelle.ttf);
+}
+@font-face{
+	font-family: lecker;
+	src:url(LeckerliOne-Regular.otf);
+}
+
+body{
+	background-color: #ecf0f1;
+	width: 100%;
+}
+
+header{
+	width: 100%;
+	background-color: #2c3e50;
+}
+
+.judul{
+	font-family: lecker;
+	color: #ecf0f1;
+	font-size: 70px;
+}
+p{
+	color: #ecf0f1;
+	font-size: 10pt;
+}
+
+.center{
+	text-align: center !important;
+}
+.kotak1{
+	margin: 2rem;
+	padding: 2rem;
+	border-color: #fff;
+	display: block;
+}
+
+.kotak2{
+	display: inline-block;
+	width: 30%;
+	min-height: 2rem;
+	background-color: #16a085;
+	padding: 1em;
+}
+.kotak2:hover{
+	background-color: #EB9532;
+}
+a{
+	text-decoration: none;
+	color: #ecf0f1;
+	font-size: 20;
+}
+.kanan{
+	width: 20%;
+	display: inline-block;
+	height: 10rem;
+	float: right;
+}
+.kiri{
+	width: 20%;
+	display: inline-block;
+	/*height: 10rem;*/
+	float: left;
+}
+.tengah{
+	width: 60%;
+	display: inline-block;
+	height: 10rem;
+}
+footer{
+	clear: both;
+	border-color: #000;
+	padding:2rem;
+	height: 5rem;
+
+}
+
+.icon{
+	width: 100px;
+	height: 100px;	
+}
+.sider{
+	display: inline-block;
+	border-color: #d35400;
+	/*width: 100%;*/
+}
+
+article{
+	margin: 2rem;
+}
+
+.content-header
+{
+	padding-left: 2rem;
+	color: #22313F;
+}
+
+hr{
+	color: #2c3e50;
+}
+
+.tableku {
+font-family: sans-serif;
+font-size: 12pt;
+width: auto;
+border-collapse:collapse;
+border: none;
+display: block;
+}
+.tableku th {
+background-color: #D64541;
+font-weight: normal;
+color: white;
+padding: 10px 10px;
+text-align: center;
+}
+.tableku td {
+padding: 10px 10px;
+color: #22313F;
+}
+
+.tableku tr{
+	background-color: #E08283;
+}
+
+.tableku tr:hover{
+	background: #ecf0f1;
+}
